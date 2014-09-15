@@ -1,7 +1,16 @@
+# Mac specific
 .DS_Store
 
+# Generic Android Ignores
 .gradle
 /local.properties
-/.idea/workspace.xml
-/build
-gradle.xml
+build
+
+# IDEA Ignores (Trying to keep no IDE specific files in git repo.)
+*.iml
+.idea/
+
+# This is the less aggressive approach suggested by JetBrains.
+# I've found it's a bit tricky when renaming projects, etc, YMMV.
+# gradle.xml
+# /.idea/workspace.xml
